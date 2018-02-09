@@ -12,8 +12,8 @@ public class StartScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.Return)) {
+		if (Input.GetButtonDown ("Fire1")) {
 			SceneManager.LoadScene ("GameScene");
-		}		
+		}
 	}
 }

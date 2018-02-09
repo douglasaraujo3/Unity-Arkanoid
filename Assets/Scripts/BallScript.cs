@@ -14,7 +14,6 @@ public class BallScript : MonoBehaviour {
 		GameObject[] obj;
 		obj = GameObject.FindGameObjectsWithTag("Bloco");
 		total_blocos = obj.Length;
-		print (total_blocos);
 	}
 	bool start;
 	// Update is called once per frame
